@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(java -cp target/classes com.cdwater.builder.Main)",
+      "Bash(javac -d target/classes src/main/java/com/cdwater/builder/*.java)"
+    ]
+  }
+}
